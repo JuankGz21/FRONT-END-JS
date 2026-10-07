@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DELMAR - Anime & Collectibles</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+        <link rel="stylesheet" href="styles.css">
+</head>
+
+    <header>
+        <div class="logo-container">
+            <div class="logo-badge">
+                <span class="logo-accent"></span>
+                <div class="logo-text">
+                    <h1>DELMAR</h1>
+                    <span class="subtext">ANIME & COLLECTIBLES</span>
+                </div>
+            </div>
+        </div>
+        
+        <nav>
+            <ul class="flex-menu">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#reseñas">Reseñas</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Banner Principal -->
+    <section id="inicio" class="hero-banner">
+        <div class="hero-content">
+            <h2>Colecciones Exclusivas de Anime</h2>
+            <p>Figuras coleccionables de tus series favoritas con acabados de alta calidad.</p>
+        </div>
+    </section>
+
+    <!-- Contenido Principal -->
+    <main>
+
+                <section id="productos" class="productos">
+            <h2>Nuestros Productos</h2>
+            <p class="section-subtitle">Figuras destacadas en stock</p>
+            
+            <div class="productos-contenedor">
+                <!-- Producto 1: Dragon Ball Z -->
+                <article class="card-producto">
+                    <div class="img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1578632767115-351597cf2477?q=80&w=500&auto=format&fit=crop" alt="Figura de Son Goku Super Saiyan - Dragon Ball Z">
+                    </div>
+                    <span class="badge">Dragon Ball Z</span>
+                    <h3>Son Goku Super Saiyan</h3>
+                    <p>Figura articulada de 25cm con acabados premium y base conmemorativa.</p>
+                    <span class="precio">$45.000 ARS</span>
+                </article>
+
+                <!-- Producto 2: Demon Slayer / Tanjiro -->
+                <article class="card-producto">
+                    <div class="img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?q=80&w=500&auto=format&fit=crop" alt="Figura de Tanjiro Kamado - Demon Slayer">
+                    </div>
+                    <span class="badge">Kimetsu no Yaiba</span>
+                    <h3>Tanjiro Kamado - Water Breath</h3>
+                    <p>Estatua a escala 1/8 con efecto de respiración de agua esculpido en resina.</p>
+                    <span class="precio">$52.000 ARS</span>
+                </article>
+
+                <!-- Producto 3: Naruto Shippuden -->
+                <article class="card-producto">
+                    <div class="img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1563089145-599997674d42?q=80&w=500&auto=format&fit=crop" alt="Figura de Naruto Uzumaki Sage Mode">
+                    </div>
+                    <span class="badge">Naruto Shippuden</span>
+                    <h3>Naruto Uzumaki - Sage Mode</h3>
+                    <p>Edición especial de Naruto en Modo Sabio con accesorios intercambiables.</p>
+                    <span class="precio">$48.500 ARS</span>
+                </article>
+            </div>
+        </section>
+
+
+        <section id="reseñas" class="reseñas">
+            <h2>Reseñas de Clientes</h2>
+            <p class="section-subtitle">Lo que opinan los coleccionistas de DELMAR</p>
+            
+            <div class="grid-reseñas">
+                <section class="card">
+                    <div class="card-accent-bar"></div>
+                    <div class="card-content">
+                        <p>"Excelente calidad en la figura de Goku. El empaque llegó impecable y súper protegido."</p>
+                        <h3>— María Pérez</h3>
+                    </div>
+                </section>
+
+                <section class="card">
+                    <div class="card-accent-bar"></div>
+                    <div class="card-content">
+                        <p>"La figura de Tanjiro supera las expectativas en los detalles. El envío fue muy rápido."</p>
+                        <h3>— Juan Gómez</h3>
+                    </div>
+                </section>
+
+                <section class="card">
+                    <div class="card-accent-bar"></div>
+                    <div class="card-content">
+                        <p>"Muy buena atención ante mis dudas sobre el stock. Delmar es una tienda súper recomendable."</p>
+                        <h3>— Laura Díaz</h3>
+                    </div>
+                </section>
+            </div>
+        </section>
+
+        <section id="contacto" class="contacto">
+            <h2>Contacto</h2>
+            <p class="section-subtitle">Escribinos para consultas sobre preventas y envíos</p>
+            
+            <form action="https://formspree.io/f/TU_ID_DE_FORMSPREE" method="POST">
+                <div class="form-group">
+                    <label for="nombre">Nombre Completo:</label>
+                    <input type="text" id="nombre" name="nombre" required placeholder="Ej. Carlos Rodríguez">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" id="email" name="email" required placeholder="tuemail@ejemplo.com">
+                </div>
+
+                <div class="form-group">
+                    <label for="mensaje">Mensaje o Consulta:</label>
+                    <textarea id="mensaje" name="mensaje" rows="4" required placeholder="Escribí aquí el producto que te interesa..."></textarea>
+                </div>
+
+                <button type="submit" class="btn-submit">Enviar Mensaje</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 DELMAR Anime & Collectibles. Todos los derechos reservados.</p>
+        <div class="redes-sociales">
+            <a href="https://instagram.com" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://facebook.com" target="_blank" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+            <a href="https://twitter.com" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+        </div>
+    </footer>
+
+</body>
+</html>
